@@ -1,0 +1,141 @@
+.body-login-page{
+
+    background: linear-gradient(270deg, aqua, blue);
+}
+
+.total_container_login {
+    display: inline;
+    position: absolute;
+    right: 250px;
+    top: 50px;
+
+}
+
+.login-container {
+    border-color: rgb(161, 187, 227);
+    border-style: solid;
+    border-width: 1px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    height: 400px;
+    margin-bottom: 20px;
+
+    background-color: aliceblue;
+}
+
+.media_name {
+    font-size: 26px;
+    font-weight: bold;
+    text-align: center;
+    font-family: Cambria;
+    color: blue;
+}
+
+.form-group {
+    display: grid;
+    place-items: center;
+}
+
+.username-email-input{
+
+    width: 250px;
+    height: 40px;
+    border-radius: 10px;
+    margin-top: 30px;
+    margin-bottom: 5px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: blue;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+.password-input {
+    width: 250px;
+    height: 40px;
+    border-radius: 10px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: blue;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+.username-email-input:focus,
+.password-input:focus {
+    border-color: blue;
+    outline: none;
+}
+
+.login-button {
+    width: 260px;
+    height: 40px;
+    color: white;
+    background-color: blue;
+    border-color: blue;
+    border-style: solid;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.login-button:active {
+    background-color: rgb(8, 8, 93);
+    border-style: solid;
+    border-color: rgb(8, 8, 93);
+}
+
+.login-button:hover {
+    cursor: pointer;
+}
+
+.login-button-container {
+    display: grid;
+    place-items: center;
+}
+
+#style_x {
+    color: yellow;
+}
+
+.forgotten-password {
+    font-size: 10px;
+    font-family: Verdana;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.signup-in-login-page {
+    width: 300px;
+    height: 40px;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: aliceblue;
+    border-width: 1px;
+    background-color: rgb(35, 219, 53);
+    color: white;
+
+}
+
+.signup-in-login-page:hover {
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    background-color: rgb(26, 158, 39);
+    border-color: rgb(35, 219, 53);
+}
+
+#login-security-message {
+    margin-top: 580px;
+    font-size: 10px;
+    font-family: Verdana;
+}
+
+@media (max-width: 600px) {
+    .login-container {
+        width: 90%;
+        height: auto; /* Adjust height for mobile devices */
+        margin: 0 auto;
+        border: none;
+    }
+
+}
